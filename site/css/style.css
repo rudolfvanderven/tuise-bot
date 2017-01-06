@@ -1,0 +1,43 @@
+.canvas_holder { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%);}
+.canvas { background-color: #000000; z-index: -1;}
+
+.main {
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+.bot_text {
+  text-align: center;
+  text-shadow: 0 0 15px;
+  overflow-y: auto;
+  min-height: 70px;
+  max-height: 70px;
+  line-height: 70px;
+  vertical-align: middle;
+  border-top-left-radius: 10px;
+  box-shadow: 0px 0px 5px #02feff;
+}
+
+::-webkit-scrollbar {
+  width: 0.2em;
+  height: 0.2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #02feff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00babb;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  background: rgba(2, 255, 255, 0.15);
+}
+
+body {
+  scrollbar-face-color: #02feff;
+  scrollbar-track-color: rgba(2, 255, 255, 0.15);
+}

@@ -1,0 +1,38 @@
+{
+  "triggers": [
+    "dude",
+    "hey dude",
+    "hey mate",
+    "ok dude",
+    "okay dude"
+  ],
+  "commands": {
+    "ping": {
+      "triggers": [
+        "ping"
+      ],
+      "message": false
+    },
+    "question": {
+      "triggers": [
+        "question",
+        "questions",
+        "pergunta",
+        "questao"
+      ],
+      "message": true
+    }
+  },
+  "greetings": [
+    "Sire?",
+    "One is glad to be of service!",
+    "How can I help?",
+    "What is it!?! Can't you see I'm busy?",
+    "WHAT???"
+  ],
+  "voice": {
+    "voice_name": "Brian",
+    "language": "en-GB",
+    "gender": "Male"
+  }
+}
