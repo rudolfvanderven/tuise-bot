@@ -2,6 +2,8 @@
 
 ## Installation
 
+[MAC OS GUIDE](./docs/mac.md)
+
 Make sure you have recording and python installed
 
     $ sudo apt-get install libav-tools portaudio19-dev python-setuptools easy_install pip
@@ -81,7 +83,10 @@ Run this to update it:
     $ $VENV/bin/python api_dudebot.py
 
 The app will start listening on port: `8080`.
-Open the browser into `localhost:8080` and you should see the bot.
+Open the browser into [localhost:8080](http://localhost:8080) and you should see the bot.
+
+### Note
+Run in Google Chrome has this uses `Speech Recognition API`  and currently only Chrome and Opera have partial support for it.
 
 ## Add New Commands
 In order to add new commands go into the `commands` folder and create the following structure:
