@@ -1,4 +1,4 @@
-# Dude-Bot
+# Tuise
 
 ## Installation
 
